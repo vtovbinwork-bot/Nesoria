@@ -7,29 +7,36 @@
     body {
       margin: 0;
       font-family: "Georgia", serif;
-      background: #f4f4f4;
+      background: #f2f3f5;
       color: #111;
     }
 
     header {
-      background: #111;
+      background: linear-gradient(180deg, #111, #333);
       color: white;
-      padding: 40px 20px;
+      padding: 50px 20px;
       text-align: center;
     }
 
     header img {
-      width: 140px;
+      width: 160px;
       margin-bottom: 20px;
     }
 
     section {
       max-width: 900px;
-      margin: 50px auto;
+      margin: 60px auto;
       padding: 0 20px;
     }
 
     h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.7;
       text-align: center;
     }
 
@@ -42,23 +49,33 @@
 
     .buttons a {
       display: block;
-      padding: 15px;
+      padding: 16px;
       background: #111;
       color: white;
       text-decoration: none;
       text-align: center;
-      border-radius: 5px;
+      border-radius: 6px;
       transition: 0.2s;
+      font-size: 16px;
     }
 
     .buttons a:hover {
-      background: #444;
+      background: #555;
+    }
+
+    .contact-box {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     footer {
       text-align: center;
-      margin: 60px 0;
+      margin: 80px 0 40px;
       color: #666;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -71,16 +88,17 @@
 </header>
 
 <section>
-  <h2>О Королевстве Нэсория</h2>
-  <p>
-    Королевство Нэсория — виртуальное государство этического типа, существующее для защиты человеческого достоинства вне зависимости от происхождения, языка и места рождения.
-  </p>
-  <p>
-    Мы признаём человека прежде его гражданства и утверждаем свободу передвижения как форму доверия между государством и личностью.
-  </p>
-  <p>
-    Нэсория уважает суверенитет всех государств, не имеет армии и не участвует в вооружённых конфликтах.
-  </p>
+  <div class="intro">
+    <p>
+      Королевство Нэсория — виртуальное государство этического типа, существующее для защиты человеческого достоинства вне зависимости от происхождения, языка и места рождения.
+    </p>
+    <p>
+      Мы признаём человека прежде его гражданства и утверждаем свободу передвижения как форму доверия между государством и личностью.
+    </p>
+    <p>
+      Нэсория уважает суверенитет всех государств, не имеет армии и не участвует в вооружённых конфликтах.
+    </p>
+  </div>
 </section>
 
 <section>
@@ -102,6 +120,20 @@
     <a href="manifesto_internal_en.html">Internal Manifesto</a>
     <a href="crown_act_en.html">Crown Act</a>
     <a href="foreign_declaration_en.html">Foreign Declaration</a>
+  </div>
+</section>
+
+<section>
+  <h2>Contacts / Контакты</h2>
+  <div class="contact-box">
+    <p>
+      Official presence on X (Twitter):<br>
+      <a href="https://x.com/nesoriakn?s=21" target="_blank">@nesoriakn</a>
+    </p>
+    <p>
+      Official email:<br>
+      <a href="mailto:nesoria.kn@outlook.com">nesoria.kn@outlook.com</a>
+    </p>
   </div>
 </section>
 
